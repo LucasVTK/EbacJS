@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container {
+    margin: 100px auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input,button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 9px;
+    width: 100%;
+    resize: none;
+}
+
+button{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    color: #000000;
+    background-color: #08fa00;
+}
+
+button:hover {
+    background-color: #08fa00;
+}
+
+#resultado{
+    background-color: #08fa00;
+    padding: 20px;
+}
+
+
+
